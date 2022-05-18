@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+
+@layer components {
+  .background-radial {
+    background: #014f76;
+    background: -webkit-radial-gradient(center, #014f76, #121312);
+    background: -moz-radial-gradient(center, #014f76, #121312);
+    background: radial-gradient(ellipse at center, #014f76, #121312);
+  }
+}
+
+@tailwind utilities;
